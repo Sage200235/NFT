@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #db6e14;
+}
+
+.container1{
+    background-color: white;
+    width: 300px;
+    height: 80vh;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.image{
+    width: 100%;
+    height: 85%;
+    background: url(./monkey.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 150px 150px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.image > h1{
+    margin-top: 35px;
+}
+
+
+.down{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.SIGNin{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #db6e14;
+    margin-left: 50px;
+}
+
+.SIGNup{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #db6e14;
+    text-align: left;
+}
+
+
+.container2{
+    background-color: white;
+    width: 300px;
+    height: 80vh;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.signUp{
+    width: 100%;
+    height: 20%;
+    color: #db6e14;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.inputDiv{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputDiv > input{
+    background-color: #F7F7F7;
+    border: none;
+    border-radius: 7px;
+    width: 85%;
+    height: 45px;
+}
+
+::placeholder{
+    color: #db6e14;
+    font-weight: bold;
+}
+
+.button{
+    border: none;
+    border-radius: 7px;
+    width: 85%;
+    height: 45px;
+    background-color: #db6e14;
+    color: white;
+}
+
+.signIn{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #db6e14;
+}
+
+
